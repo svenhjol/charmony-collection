@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "charmony-collection",
+  "version": "${mod_version}",
+
+  "name": "Charmony Collection",
+  "description": "Tools with the Collection enchantment automatically pick up drops.",
+
+  "authors": [
+    "svenhjol"
+  ],
+  "icon": "assets/charmony-collection/textures/gui/sprites/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  
+  "entrypoints": {
+    "main": [
+        "svenhjol.charmony.collection.common.CommonInitializer"
+    ]
+  },
+
+  "mixins": [
+    "charmony-collection.common.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "*",
+    "java": ">=${java_version}",
+    "fabric-api": "*",
+    "charmony": ">=${charmony_version}",
+    "charmony-api": ">=${api_version}"
+  },
+
+  "contact": {
+    "homepage": "${homepage_link}",
+    "sources": "https://github.com/svenhjol/${mod_id}"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "${discord_link}"
+      },
+      "update_checker": true
+    }
+  }
+}

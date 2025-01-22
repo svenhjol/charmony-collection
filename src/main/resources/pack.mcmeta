@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Charmony Collection resources",
+    "pack_format": ${pack_version}
+  }
+}

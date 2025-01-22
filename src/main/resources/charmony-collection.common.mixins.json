@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "svenhjol.charmony.collection.common.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "${refmap_file}",
+  "plugin": "svenhjol.charmony.collection.common.mixins.CommonMixinConfig",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "collection.BlockMixin",
+    "collection.ServerPlayerGameModeMixin"
+  ]
+}
