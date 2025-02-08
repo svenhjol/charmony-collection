@@ -1,6 +1,5 @@
 package svenhjol.charmony.collection.common.features.collection;
 
-import svenhjol.charmony.collection.CollectionMod;
 import svenhjol.charmony.core.annotations.FeatureDefinition;
 import svenhjol.charmony.core.base.Mod;
 import svenhjol.charmony.core.base.SidedFeature;
@@ -20,6 +19,6 @@ public final class Collection extends SidedFeature {
     }
 
     public static Collection feature() {
-        return CollectionMod.instance().sidedFeature(Collection.class);
+        return Mod.getSidedFeature(Collection.class);
     }
 }
