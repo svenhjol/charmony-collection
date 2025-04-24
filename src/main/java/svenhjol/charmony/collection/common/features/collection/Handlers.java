@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.WeakHashMap;
 
-public final class Handlers extends Setup<Collection> {
+public class Handlers extends Setup<Collection> {
     private static final Map<BlockPos, UUID> BREAKING = new WeakHashMap<>();
 
     public Handlers(Collection feature) {

@@ -5,10 +5,10 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "translate": "advancements.charmony.collection.title"
+      "translate": "advancements.charmony-collection.collection.title"
     },
     "description": {
-      "translate": "advancements.charmony.collection.description"
+      "translate": "advancements.charmony-collection.collection.description"
     },
     "frame": "task",
     "show_toast": false,

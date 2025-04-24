@@ -1,4 +1,8 @@
 {
+  "advancements.charmony-collection.collection.title": "Collection",
+  "advancements.charmony-collection.collection.description": "Pickup items directly in your inventory using a tool enchanted with Collection",
+  "advancements.charmony-collection.used_collection.title": "Instant Delivery",
+  "advancements.charmony-collection.used_collection.description": "Automatically pick up drops",
   "attribute.name.player.charmony-collection.automatic_item_pickup": "Automatic Item Pickup",
   "enchantment.charmony-collection.collection": "Collection",
   "enchantment.charmony-collection.collection.desc": "Tools automatically pick up drops"
