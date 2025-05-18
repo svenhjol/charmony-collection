@@ -3,7 +3,7 @@ package svenhjol.charmony.collection.common;
 import net.fabricmc.api.ModInitializer;
 import svenhjol.charmony.collection.CollectionMod;
 import svenhjol.charmony.collection.common.features.collection.Collection;
-import svenhjol.charmony.core.enums.Side;
+import svenhjol.charmony.api.core.Side;
 
 public final class CommonInitializer implements ModInitializer {
     @Override
