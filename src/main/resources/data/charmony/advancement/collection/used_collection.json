@@ -1,5 +1,5 @@
 {
-  "parent": "charmony-collection:root",
+  "parent": "charmony:root",
   "display": {
     "icon": {
       "id": "minecraft:diamond_pickaxe",
@@ -8,10 +8,10 @@
       }
     },
     "title": {
-      "translate": "advancements.charmony-collection.used_collection.title"
+      "translate": "advancements.charmony.used_collection.title"
     },
     "description": {
-      "translate": "advancements.charmony-collection.used_collection.description"
+      "translate": "advancements.charmony.used_collection.description"
     },
     "frame": "goal",
     "show_toast": true,

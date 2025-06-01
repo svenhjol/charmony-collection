@@ -10,7 +10,7 @@
     "svenhjol",
     "WarlordWossman"
   ],
-  "icon": "assets/charmony-collection/textures/gui/sprites/icon.png",
+  "icon": "assets/charmony/textures/gui/sprites/charmony-collection.png",
   "license": "MIT",
   "environment": "*",
   

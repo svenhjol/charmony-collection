@@ -1,7 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.charmony-collection.collection"
+    "translate": "enchantment.charmony.collection"
   },
   "effects": {
     "minecraft:attributes": [
@@ -11,8 +11,8 @@
           "base": 1.0,
           "per_level_above_first": 0.0
         },
-        "attribute": "charmony-collection:player.automatic_item_pickup",
-        "id": "charmony-collection:enchantment.collection",
+        "attribute": "charmony:player.automatic_item_pickup",
+        "id": "charmony:enchantment.collection",
         "operation": "add_value"
       }
     ]
